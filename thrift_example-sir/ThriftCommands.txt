@@ -1,0 +1,9 @@
+Thrift commands
+------------------
+
+thrift --gen cpp calculator.thrift
+g++ gen-cpp/Calculator.cpp calculatorServer.cpp -o Server -lthrift
+g++ gen-cpp/Calculator.cpp calculatorClient.cpp -o Client -lthrift
+./Server 
+
+./Client
