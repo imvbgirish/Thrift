@@ -1,0 +1,41 @@
+# -------------------------
+# Build / Qt cache folders
+# -------------------------
+build/
+qt-build/
+**/build/
+**/.qtc_clangd/
+
+# -------------------------
+# Qt Creator / Qt user files
+# -------------------------
+*.pro.user*
+*.qbs.user
+*.user            # This will cover CMakeLists.txt.user and similar
+
+# -------------------------
+# Compiled object/binary files
+# -------------------------
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# -------------------------
+# Backup and temporary files
+# -------------------------
+*~
+*.swp
+*.swo
+*.tmp
+*.log
+*.DS_Store
+
+# -------------------------
+# IDE / Editor folders
+# -------------------------
+.vscode/
+.idea/
+*.kate-swp
